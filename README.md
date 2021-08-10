@@ -1,5 +1,5 @@
 # babelServe
-babel配置
+### babel配置
 
 babel处理js的流程：
 例： console.log('hello')
