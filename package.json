@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node scripts/index.js"
+    "start": "node scripts/index.js",
+    "build": "yarn babel ./babel/* -d ./babel-comp"
   },
   "author": "",
   "license": "ISC",
