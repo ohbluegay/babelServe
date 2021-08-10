@@ -12,6 +12,6 @@
        D --> E(将修改后的AST树转换为源代码)
 ```
 -表格
-|babel|java|vue|
+|babel|presets|plugins|
 |---|---|---|
-|false|true|false|
+||||
