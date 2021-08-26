@@ -5,7 +5,7 @@ module.exports = {
                 targets: {
                     'browsers': ['ie >= 8', 'iOS 7'] // 支持ie8，直接使用iOS浏览器版本7
                 },
-                corejs: '3', // 代替@babel/polyfill 
+                corejs: '3', // 代替@babel/polyfill
                 modules: false, // 指定将es6 modules 转换为何种模块规范,false即为将module交由webpack处理，而不是babel
                 useBuiltIns: 'usage', // usage：将目标浏览器不支持的api按需引入 ，entry:将目标浏览器不支持的api全量引入，false： 不自动加入内置类型的polyfill
             }
